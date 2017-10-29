@@ -1,0 +1,8 @@
+~/.pyenv/versions/3.5.1/bin/python
+~/.pyenv/versions/3.5.1/bin/pip install -r requirement.txt
+
+
+pyenv localがうまく反映されていない気がする
+ →とりあえずシンボリックリンクを貼っておく
+  ln -s ~/.pyenv/versoins/3.5.1/bin/python python
+  ln -s ~/.pyenv/versoins/3.5.1/bin/pip pip
