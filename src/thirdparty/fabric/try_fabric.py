@@ -8,7 +8,7 @@ fabコマンドではなくpythonスクリプトとしてインタプリタ〜�
 
 expect -c"
 set timeout 5000
-spawn python TryFabric.py
+spawn python try_fabric.py
 expect \"No hosts found. Please specify (single) host string for connection:\"
 send \"192.168.11.16\r\"
 expect \"TryFabricEnd\"
