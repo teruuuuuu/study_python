@@ -3,6 +3,8 @@ __pycache__/
 *.model
 *.state
 
+.ipynb_checkpoints
+
 .idea/
 
 python
